@@ -10,6 +10,7 @@ def main():
     pos = 0
     while pos != -1:
         line_code, pos = process_optcode(line_code, pos)
+        print(pos)
 
     print(line_code[0])
 
